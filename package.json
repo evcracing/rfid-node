@@ -1,0 +1,29 @@
+{
+  "name": "rfid-node",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Drew Westrick <anmiwest@iupui.edu>",
+  "description": "a simple web-based rfid authentication example",
+  "main": "./lib/http-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/http-server.git"
+  },
+  "keywords": [
+    "rfid",
+    "http",
+    "authentication"
+  ],
+  "dependencies" : {
+    "ejs"   :  "0.8.x",
+    "express" :  "3.2.x",
+    "serialport" :  "1.1.x",
+    "socket.io"    :  "0.9.x",
+    "stylus" :  "0.32.x"
+  },
+  "analyze": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
